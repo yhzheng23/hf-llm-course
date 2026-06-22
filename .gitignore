@@ -75,8 +75,9 @@ yarn.lock
 # Sylvain notes folder
 notes
 
-# Ignore Colab notebooks
-nbs/
+# Ignore Colab cache and checkpoints
+nbs/**/.ipynb_checkpoints/
+nbs/**/__pycache__/
 
 # Byte-compiled
 __pycache__/
