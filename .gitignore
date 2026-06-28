@@ -79,7 +79,16 @@ notes
 nbs/**/.ipynb_checkpoints/
 nbs/**/__pycache__/
 
+# Local Hugging Face model downloads / caches
+model_cache/
+**/model_cache/
+models/
+**/models/
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+
 # Byte-compiled
 __pycache__/
 .cache/
-
